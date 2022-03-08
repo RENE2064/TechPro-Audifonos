@@ -293,8 +293,10 @@ a {
     background-size: 25rem;
   }
 }
-.modelo-z h3 {
-  font-size: 4rem;
+@media (min-width: 992px) {
+  .modelo-z h3 {
+    font-size: 4rem;
+  }
 }
 .modelo-z .precio {
   font-size: 6rem;
